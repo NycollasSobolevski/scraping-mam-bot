@@ -20,7 +20,8 @@ endDate   = date(int(endDate[2]), int(endDate[1]), int(endDate[0]))
 edge_options = webdriver.EdgeOptions()
 edge_options.add_argument('--headless')
 driver = webdriver.Edge(edge_options)
-url = "https://dev.maminfo.com.br:62443/mamapp/login"
+# url = "https://dev.maminfo.com.br:62443/mamapp/login"
+url = "https://mamerp.maminfo.com.br:62443/mamapp/login"
 
 driver.get(url)
 
